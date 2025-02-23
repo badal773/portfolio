@@ -328,3 +328,22 @@ footer a:hover {
   margin-bottom: 10px;
   font-size: 0.9rem;
 }
+/* Style the certification items */
+.skill-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit; /* Inherit text color from parent */
+  font-size: 0.9rem;
+}
+
+.certification-logo {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  margin-right: 5px; /* Space between logo and text */
+  margin: 20px;
+}
+.skill-item i {
+  margin-right: 5px; /* Space between icon and text */
+  color: rgb(170, 107, 228); /* Icon color */
+}
