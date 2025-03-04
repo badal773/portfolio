@@ -245,7 +245,7 @@
         <section id="contact-me" class="contact-section">
             <h2>Contact Me</h2>
             <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" >
-                <input type="hidden" name="access_key" value="88f48d22-fee9-4543-a706-7cfe83e6fb9b">
+                <input type="hidden" name="access_key" id="access_key">
 
                 <div class="form-group">
                 <label for="name">Name</label>
@@ -260,6 +260,8 @@
                 <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
                 <button type="submit" class="contact-btn">Send Message</button>
+                <input type="hidden" name="redirect" id="redirect-url">
+
             </form>
             </section>
     </main>
@@ -319,6 +321,12 @@
         ],
         typeSpeed: 50,
       });
+
+    // Set API Key dynamically (Replace with secure retrieval from backend )
+    document.getElementById("access_key").value = "WEB3FORMS_ACCESS_KEY";
+
+    // Set redirect URL dynamically based on the host
+    document.getElementById("redirect-url").value = window.location.origin + "/thankyou.html";
     </script>
   </body>
 </html>
