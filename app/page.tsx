@@ -185,16 +185,15 @@ export default function Portfolio() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">About Me</h2>
           <div className="text-center space-y-6">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Who I Am</h3>
             <p className="text-xl leading-relaxed text-gray-600 dark:text-gray-300">
-              I'm a DevOps Engineer at <span className="font-semibold text-blue-600 dark:text-blue-400">Devtron</span>{" "}
-              who believes that infrastructure should be as reliable as your morning coffee ☕. With 2.5 years of
-              experience wrangling Kubernetes clusters across AWS, GCP, and Azure, I've learned that the best
-              deployments are the ones nobody notices.
+              I'm a passionate DevOps Engineer with expertise in building scalable and reliable infrastructure. I specialize in DevOps, Kubernetes, and orchestration, while maintaining a strong foundation in cloud technologies like AWS, GCP, and Azure.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              When I'm not busy achieving 99.99% uptime or reducing incident response times by 40%, you'll find me
-              mentoring junior engineers and contributing to open-source projects like{" "}
-              <span className="font-semibold text-blue-600 dark:text-blue-400">Mirrorverse</span>.
+              With a Bachelor's in Software Engineering from Gandhi Institute for Technological Advancement (GITA), Bhubaneswar, and a background in Computer Science, I combine technical expertise with a deep understanding of user experience to create intuitive and efficient solutions.
+            </p>
+            <p className="text-lg text-gray-600 dark:text-gray-300">
+              When I'm not orchestrating cloud symphonies, I love exploring uncharted destinations, hiking through winding trails, and indulging in the bliss of a good night's sleep 💤. Honestly, I just love to sleep more than anything else.
             </p>
           </div>
         </div>
