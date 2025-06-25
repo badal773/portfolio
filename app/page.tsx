@@ -137,7 +137,7 @@ export default function Portfolio() {
           <div className="text-center">
             <div className="mb-8">
               <img
-                src="/placeholder.svg?height=200&width=200"
+                src="/profile-pic.jpg"
                 alt="Badal Kumar Prusty"
                 className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-xl"
               />
@@ -331,19 +331,19 @@ export default function Portfolio() {
                 name: "CKA",
                 full: "Certified Kubernetes Administrator",
                 color: "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200",
-                link: "https://www.credly.com/badges/1555435a-9553-42be-88f1-ccda348aee66",
+                link: "https://www.credly.com/badges/71ce4183-dee9-49e6-99b0-06f740929338",
               },
               {
                 name: "CKAD",
                 full: "Certified Kubernetes Application Developer",
                 color: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200",
-                link: "https://www.credly.com/badges/1555435a-9553-42be-88f1-ccda348aee66",
+                link: "https://www.credly.com/badges/558ebe98-eeb0-4ad9-9a84-2d3736599750",
               },
               {
                 name: "CKS",
                 full: "Certified Kubernetes Security Specialist",
                 color: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200",
-                link: "https://www.credly.com/badges/1555435a-9553-42be-88f1-ccda348aee66",
+                link: "https://www.credly.com/badges/a13f7539-300c-4419-b3d4-33c1cf1eee6a",
               },
               {
                 name: "KCNA",
@@ -355,7 +355,7 @@ export default function Portfolio() {
                 name: "KCSA",
                 full: "Kubernetes and Cloud Security Associate",
                 color: "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200",
-                link: "https://www.credly.com/badges/1555435a-9553-42be-88f1-ccda348aee66",
+                link: "https://www.credly.com/badges/07b5533d-925f-411b-9819-dd5e2c8e2f90",
               },
             ].map((cert, index) => (
               <a key={cert.name} href={cert.link} target="_blank" rel="noopener noreferrer" className="block">
@@ -673,7 +673,9 @@ export default function Portfolio() {
                 </p>
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Download className="w-5 h-5 mr-2" />
-                  Download PDF
+                  <a href="https://drive.google.com/file/d/1aVGdKw45czIGpVg5Ix-3_yCrTlbP4oqI/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>
+                    Download PDF
+                  </a>
                 </Button>
               </CardContent>
             </Card>
