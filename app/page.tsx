@@ -262,7 +262,7 @@ export default function Portfolio() {
                     <div className="flex items-start space-x-2">
                       <Code className="w-5 h-5 text-indigo-600 mt-0.5 flex-shrink-0" />
                       <span className="text-sm text-gray-700 dark:text-gray-300">
-                        Mentored <strong>5+ junior engineers</strong> in DevOps best practices
+                        Streamline deployments and dependencies using custom Helm charts for all utilities, while maintaining Devtron OSS and Enterprise Helm charts.
                       </span>
                     </div>
                   </div>
@@ -369,10 +369,79 @@ export default function Portfolio() {
             ))}
           </div>
 
-          {/* Simple Pipeline Connections */}
+          {/* Simple Line Connectors */}
           <div className="flex justify-center mb-8 relative">
             <div className="relative w-full max-w-4xl h-32">
-              
+              <svg className="w-full h-full" viewBox="0 0 800 120" fill="none">
+                <defs>
+                  <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#64748b" />
+                    <stop offset="50%" stopColor="#475569" />
+                    <stop offset="100%" stopColor="#334155" />
+                  </linearGradient>
+                </defs>
+
+                {/* Simple connecting lines from each certification to center */}
+                <g>
+                  {/* CKA Line */}
+                  <line
+                    x1="100"
+                    y1="20"
+                    x2="400"
+                    y2="100"
+                    stroke="url(#lineGradient)"
+                    strokeWidth="2"
+                    className="opacity-60"
+                  />
+
+                  {/* CKAD Line */}
+                  <line
+                    x1="200"
+                    y1="30"
+                    x2="400"
+                    y2="100"
+                    stroke="url(#lineGradient)"
+                    strokeWidth="2"
+                    className="opacity-60"
+                  />
+
+                  {/* CKS Line - Central */}
+                  <line
+                    x1="400"
+                    y1="40"
+                    x2="400"
+                    y2="100"
+                    stroke="#475569" /* Changed to solid color for testing visibility */
+                    strokeWidth="2" /* Increased stroke width for better visibility */
+                  />
+
+                  {/* KCNA Line */}
+                  <line
+                    x1="600"
+                    y1="30"
+                    x2="400"
+                    y2="100"
+                    stroke="url(#lineGradient)"
+                    strokeWidth="2"
+                    className="opacity-60"
+                  />
+
+                  {/* KCSA Line */}
+                  <line
+                    x1="700"
+                    y1="20"
+                    x2="400"
+                    y2="100"
+                    stroke="url(#lineGradient)"
+                    strokeWidth="2"
+                    className="opacity-60"
+                  />
+                </g>
+
+                {/* Convergence point */}
+                <circle cx="400" cy="100" r="4" fill="#475569" />
+                <circle cx="400" cy="100" r="2" fill="#64748b" />
+              </svg>
             </div>
           </div>
 
@@ -625,8 +694,7 @@ export default function Portfolio() {
                 Open-source contributions
               </div>
               <div className="flex items-center">
-                <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
-                Multi-cloud expertise (AWS, GCP, Azure)
+                <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>Multi-cloud expertise (AWS,GCP,Azure)
               </div>
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
@@ -644,7 +712,7 @@ export default function Portfolio() {
       {/* Contact Section */}
       <section
         id="contact"
-        className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-blue-50 to-indigo-50 dark:from-gray-800 dark:via-indigo-900 dark:to-gray-900 transition-colors duration-300"
+        className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-blue-50 to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300"
       >
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">Let's Connect!</h2>
@@ -654,12 +722,12 @@ export default function Portfolio() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="hover:shadow-xl transition-all duration-300 hover:scale-105 dark:bg-gray-800/80 dark:border-gray-600 backdrop-blur-sm border-t-4 border-t-blue-500">
+            <Card className="hover:shadow-xl transition-all duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm border-t-4 border-t-blue-500">
               <CardContent className="p-6 text-center">
-                <div className="bg-blue-100 dark:bg-blue-900/50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-blue-100 dark:bg-gray-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Mail className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="font-semibold mb-2 text-gray-900 dark:text-white">Email</h3>
+                <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-300">Email</h3>
                 <a
                   href="mailto:badalkumarofficial2002@gmail.com"
                   className="text-blue-600 hover:underline text-sm break-all whitespace-nowrap overflow-hidden text-ellipsis block"
@@ -670,12 +738,12 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-xl transition-all duration-300 hover:scale-105 dark:bg-gray-800/80 dark:border-gray-600 backdrop-blur-sm border-t-4 border-t-blue-500">
+            <Card className="hover:shadow-xl transition-all duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm border-t-4 border-t-blue-500">
               <CardContent className="p-6 text-center">
-                <div className="bg-blue-100 dark:bg-blue-900/50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-blue-100 dark:bg-gray-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Linkedin className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="font-semibold mb-2 text-gray-900 dark:text-white">LinkedIn</h3>
+                <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-300">LinkedIn</h3>
                 <a
                   href="https://linkedin.com/in/badalprusty"
                   target="_blank"
@@ -687,12 +755,12 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-xl transition-all duration-300 hover:scale-105 dark:bg-gray-800/80 dark:border-gray-600 backdrop-blur-sm border-t-4 border-t-blue-500">
+            <Card className="hover:shadow-xl transition-all duration-300 hover:scale-105 dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm border-t-4 border-t-blue-500">
               <CardContent className="p-6 text-center">
-                <div className="bg-blue-100 dark:bg-blue-900/50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-blue-100 dark:bg-gray-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Github className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="font-semibold mb-2 text-gray-900 dark:text-white">GitHub</h3>
+                <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-300">GitHub</h3>
                 <a
                   href="https://github.com/badal773"
                   target="_blank"
@@ -705,7 +773,7 @@ export default function Portfolio() {
             </Card>
           </div>
 
-          <div className="mt-12 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-700/50 dark:to-gray-800/50 rounded-xl border border-blue-200 dark:border-gray-600 backdrop-blur-sm">
+          <div className="mt-12 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 rounded-xl border border-blue-200 dark:border-gray-600 backdrop-blur-sm">
             <p className="text-gray-600 dark:text-gray-300">
               <MapPin className="w-4 h-4 inline mr-1" />
               Based in Gurgaon, Haryana • Open to remote opportunities
@@ -732,6 +800,3 @@ export default function Portfolio() {
     </div>
   )
 }
-
-
-
