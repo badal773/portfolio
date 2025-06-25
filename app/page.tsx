@@ -146,7 +146,7 @@ export default function Portfolio() {
               />
             </div>
             <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Hey, I'm <span className="text-blue-600 dark:text-blue-400">Badal</span> 👋
+              Hey, I&apos;m <span className="text-blue-600 dark:text-blue-400">Badal</span> 👋
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
               DevOps Engineer building reliable, scalable infrastructure with Kubernetes, GitOps, and a bit of caffeine.
@@ -197,7 +197,7 @@ export default function Portfolio() {
               With a Bachelor's in Software Engineering from Gandhi Institute for Technological Advancement (GITA), Bhubaneswar, and a background in Computer Science, I combine technical expertise with a deep understanding of user experience to create intuitive and efficient solutions.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              When I'm not orchestrating cloud symphonies, I love exploring uncharted destinations, hiking through winding trails, and indulging in the bliss of a good night's sleep 💤. Honestly, I just love to sleep more than anything else.
+              When I&apos;m not orchestrating cloud symphonies, I love exploring uncharted destinations, hiking through winding trails, and indulging in the bliss of a good night&apos;s sleep 💤. Honestly, I just love to sleep more than anything else.
             </p>
           </div>
         </div>
@@ -791,7 +791,7 @@ export default function Portfolio() {
       <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 text-white py-8 px-4 sm:px-6 lg:px-8 transition-colors duration-300 border-t border-gray-700">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">© 2025 Badal Kumar Prusty. Built with Next.js and lots of ☕</p>
-          <p className="text-sm text-gray-500 mt-2">"Making infrastructure reliable, one deployment at a time"</p>
+          <p className="text-sm text-gray-500 mt-2">&quot;Making infrastructure reliable, one deployment at a time&quot;</p>
           <div className="mt-4 flex items-center justify-center space-x-2 text-xs text-gray-600">
             <span className="flex items-center">
               <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
