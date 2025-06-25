@@ -25,6 +25,7 @@ import {
   Download,
   FileText,
 } from "lucide-react"
+import Image from "next/image"
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home")
@@ -136,9 +137,11 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <div className="mb-8">
-              <img
+              <Image
                 src="/profile-pic.jpg"
                 alt="Badal Kumar Prusty"
+                width={192}
+                height={192}
                 className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-xl"
               />
             </div>
@@ -357,7 +360,7 @@ export default function Portfolio() {
                 color: "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200",
                 link: "https://www.credly.com/badges/07b5533d-925f-411b-9819-dd5e2c8e2f90",
               },
-            ].map((cert, index) => (
+            ].map((cert) => (
               <a key={cert.name} href={cert.link} target="_blank" rel="noopener noreferrer" className="block">
                 <Card className="text-center dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg transition-all duration-300 hover:scale-105 cursor-pointer">
                   <CardContent className="p-4">
