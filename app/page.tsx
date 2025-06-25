@@ -146,7 +146,8 @@ export default function Portfolio() {
               Hey, I'm <span className="text-blue-600 dark:text-blue-400">Badal</span> 👋
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-              DevOps Engineer who makes Kubernetes clusters purr like happy cats 🐱
+              DevOps Engineer building reliable, scalable infrastructure with Kubernetes, GitOps, and a bit of caffeine.
+              <br />
               <br />
               <span className="text-lg">2.5 years in DevOps, still learning, still debugging</span>
             </p>
