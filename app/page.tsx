@@ -148,7 +148,7 @@ export default function Portfolio() {
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
               DevOps Engineer who makes Kubernetes clusters purr like happy cats 🐱
               <br />
-              <span className="text-lg">2.5 years of turning chaos into 99.99% uptime</span>
+              <span className="text-lg">2.5 years in DevOps, still learning, still debugging</span>
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <Badge variant="secondary" className="text-sm px-3 py-1">
