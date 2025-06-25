@@ -29,8 +29,6 @@ import {
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home")
   const [isDarkMode, setIsDarkMode] = useState(false)
-  // Remove these lines:
-  // const [powerFlow, setPowerFlow] = useState(false)
 
   useEffect(() => {
     // Check for saved theme preference or default to system preference
@@ -45,16 +43,6 @@ export default function Portfolio() {
       document.documentElement.classList.remove("dark")
     }
   }, [])
-
-  // Remove the power flow useEffect:
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setPowerFlow(true)
-  //     setTimeout(() => setPowerFlow(false), 2000)
-  //   }, 4000)
-
-  //   return () => clearInterval(interval)
-  // }, [])
 
   const toggleDarkMode = () => {
     const newDarkMode = !isDarkMode
@@ -388,33 +376,28 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* KUBESTRONAUT Card */}
+          {/* Smaller KUBESTRONAUT Card with Softer Blue - KEPT AS REQUESTED */}
           <div className="flex justify-center">
-            <Card className="w-full max-w-2xl bg-gradient-to-br from-blue-600 to-indigo-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full hover:translate-x-full transition-transform duration-1000"></div>
+            <Card className="w-full max-w-lg bg-gradient-to-br from-slate-600 to-slate-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full hover:translate-x-full transition-transform duration-1000"></div>
 
-              <CardContent className="p-8 text-center relative">
-                <div className="flex flex-col items-center space-y-4">
-                  <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-2">
-                    <Award className="w-8 h-8 text-white" />
+              <CardContent className="p-6 text-center relative">
+                <div className="flex flex-col items-center space-y-3">
+                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-2">
+                    <Award className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-3xl font-bold tracking-wide">KUBESTRONAUT</h3>
-                  <p className="text-lg text-blue-100">Elite Kubernetes Expert</p>
-                  <div className="flex flex-wrap justify-center gap-2 mt-4">
-                    <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-sm">
+                  <h3 className="text-2xl font-bold tracking-wide">KUBESTRONAUT</h3>
+                  <p className="text-sm text-slate-200">Elite Kubernetes Expert</p>
+                  <div className="flex flex-wrap justify-center gap-2 mt-3">
+                    <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-xs">
                       5/5 CNCF Certifications
                     </Badge>
-                    <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-sm">
+                    <Badge variant="secondary" className="bg-white/20 text-white border-white/30 text-xs">
                       Elite Status
                     </Badge>
                   </div>
-                  <div className="flex flex-col sm:flex-row gap-4 mt-6">
-                    <Button
-                      variant="secondary"
-                      size="default"
-                      asChild
-                      className="bg-white text-blue-600 hover:bg-gray-100"
-                    >
+                  <div className="flex flex-col sm:flex-row gap-3 mt-4">
+                    <Button variant="secondary" size="sm" asChild className="bg-white text-slate-600 hover:bg-gray-100">
                       <a
                         href="https://www.credly.com/badges/489e72f8-aaaf-4382-8621-f3b097444fd7"
                         target="_blank"
@@ -426,7 +409,7 @@ export default function Portfolio() {
                     </Button>
                     <Button
                       variant="outline"
-                      size="default"
+                      size="sm"
                       asChild
                       className="border-white/30 text-white hover:bg-white/10"
                     >
@@ -749,3 +732,6 @@ export default function Portfolio() {
     </div>
   )
 }
+
+
+
