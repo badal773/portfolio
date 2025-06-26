@@ -138,7 +138,7 @@ export default function Portfolio() {
           <div className="text-center">
             <div className="mb-8">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/profile-pic.jpg`}
+                src="/portfolio/profile-pic.png"
                 alt="Badal Kumar Prusty"
                 width={192}
                 height={192}
