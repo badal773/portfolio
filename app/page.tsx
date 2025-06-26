@@ -140,9 +140,9 @@ export default function Portfolio() {
               <Image
                 src="/portfolio/profile-pic.png"
                 alt="Badal Kumar Prusty"
-                width={192}
-                height={192}
-                className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-xl"
+                width={320}
+                height={320}
+                className="w-75 h-75 rounded-full mx-auto mb-6 border-2 border-white shadow-2xl"
               />
             </div>
             <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
@@ -791,15 +791,8 @@ export default function Portfolio() {
       <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 text-white py-8 px-4 sm:px-6 lg:px-8 transition-colors duration-300 border-t border-gray-700">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">© 2025 Badal Kumar Prusty. Built with Next.js and lots of ☕</p>
-          <p className="text-sm text-gray-500 mt-2">&quot;Making infrastructure reliable, one deployment at a time&quot;</p>
-          <div className="mt-4 flex items-center justify-center space-x-2 text-xs text-gray-600">
-            <span className="flex items-center">
-              <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-              Built with AI ✨
-            </span>
-            <span className="text-gray-700">•</span>
-            <span>Powered by v0</span>
-          </div>
+          <p className="text-sm text-gray-500 mt-2">&quot;Every pod has a purpose&quot;</p>
+          
         </div>
       </footer>
     </div>

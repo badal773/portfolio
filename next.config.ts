@@ -11,6 +11,8 @@ const nextConfig = {
   basePath: '/portfolio',
   trailingSlash: true,
   output: 'export',
+  devIndicators: false,
+
   env: {
     NEXT_PUBLIC_BASE_PATH: '/portfolio',
   },
