@@ -142,8 +142,6 @@ export default function Portfolio() {
                 alt="Badal Kumar Prusty"
                 width={320}
                 height={320}
-                placeholder="blur"
-                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAn8B9U9+2AAAAABJRU5ErkJggg==" // Replace with actual base64 string of a low-quality image
                 className="w-75 h-75 rounded-full mx-auto mb-6 border-2 border-white shadow-2xl"
               />
             </div>
