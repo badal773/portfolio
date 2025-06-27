@@ -486,7 +486,7 @@ export default function Portfolio() {
                       className="border-white/30 text-white hover:bg-white/10"
                     >
                       <a
-                        href="https://www.cncf.io/training/kubestronaut/?p=badalkumar"
+                        href="https://www.cncf.io/training/kubestronaut/?_sft_lf-country=in&p=badal-kumar-prusty"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
