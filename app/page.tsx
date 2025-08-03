@@ -191,18 +191,13 @@ export default function Portfolio() {
           <div className="text-center space-y-6">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Who I Am</h3>
             <p className="text-xl leading-relaxed text-gray-600 dark:text-gray-300">
-              I&apos;m a DevOps Engineer passionate about building scalable, reliable infrastructure. My expertise spans
-              Kubernetes, GitOps, and cloud orchestration, with hands-on experience across AWS, GCP, and Azure. I thrive
-              on solving complex problems and automating workflows to deliver robust solutions.
+              DevOps Engineer with a passion for building scalable, reliable infrastructure. My expertise spans Kubernetes, GitOps, and cloud orchestration, with hands-on experience across AWS, GCP, and Azure. I thrive on solving complex problems and automating everything I can.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I hold a Bachelor&apos;s in Software Engineering from Gandhi Institute for Technological Advancement (GITA),
-              Bhubaneswar, and a strong foundation in Computer Science. My approach blends technical depth with a focus
-              on user experience, ensuring every solution is both powerful and intuitive.
+              I hold a Bachelor's in Software Engineering from Gandhi Institute for Technological Advancement (GITA), Bhubaneswar, and a strong foundation in Computer Science. My approach blends technical depth with a focus on user experience, ensuring solutions are both robust and intuitive.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              Outside of tech, I&apos;m an explorer at heart—whether it&apos;s discovering new destinations, hiking scenic
-              trails, or simply enjoying the bliss of a good night&apos;s sleep.
+              Outside of tech, you'll find me exploring new destinations, hiking scenic trails, or simply enjoying the bliss of a good night's sleep. If you ever need a travel buddy or someone to debug your cloud stack, I'm your person!
             </p>
           </div>
         </div>
