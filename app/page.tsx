@@ -22,8 +22,8 @@ import {
   Github,
   Moon,
   Sun,
-  Download,
   FileText,
+  Eye,
 } from "lucide-react"
 import Image from "next/image"
 
@@ -674,10 +674,19 @@ export default function Portfolio() {
                   Complete professional experience, projects, achievements, and all CNCF certifications in a
                   comprehensive format.
                 </p>
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                  <Download className="w-5 h-5 mr-2" />
-                  <a href="https://drive.google.com/file/d/1aVGdKw45czIGpVg5Ix-3_yCrTlbP4oqI/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>
-                    Download PDF
+                <Button
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700"
+                  asChild
+                >
+                  <a
+                    href="https://drive.google.com/file/d/1aVGdKw45czIGpVg5Ix-3_yCrTlbP4oqI/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View PDF"
+                  >
+                    <Eye className="w-5 h-5 mr-2" />
+                    View PDF
                   </a>
                 </Button>
               </CardContent>
