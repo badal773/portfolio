@@ -153,7 +153,7 @@ export default function Portfolio() {
               DevOps Engineer building reliable, scalable infrastructure with Kubernetes, GitOps, and a bit of caffeine.
               <br />
               <br />
-              <span className="text-lg">2.8 years in DevOps, still learning, still debugging</span>
+              <span className="text-lg">3 years in DevOps, still learning, still debugging</span>
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <Badge variant="secondary" className="text-sm px-3 py-1">
@@ -704,7 +704,7 @@ DevOps Engineer passionate about building scalable, reliable infrastructure. Ski
             <div className="grid md:grid-cols-3 gap-4 text-sm text-gray-600 dark:text-gray-300">
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                2.8 years of DevOps experience
+                3 years of DevOps experience
               </div>
               <div className="flex items-center">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>5 CNCF Kubernetes certifications
