@@ -796,7 +796,7 @@ DevOps Engineer passionate about building scalable, reliable infrastructure. Ski
           <div className="mt-12 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 rounded-xl border border-blue-200 dark:border-gray-600 backdrop-blur-sm">
             <p className="text-gray-600 dark:text-gray-300">
               <MapPin className="w-4 h-4 inline mr-1" />
-              Based in Gurgaon, Haryana • Open to remote opportunities
+              Based in Bengaluru, Karnataka • Open to remote opportunities
             </p>
           </div>
         </div>
