@@ -486,10 +486,10 @@ DevOps Engineer passionate about building scalable, reliable infrastructure. Ski
                       </a>
                     </Button>
                     <Button
-                      variant="outline"
+                      variant="secondary"
                       size="sm"
                       asChild
-                      className="border-white/30 text-white hover:bg-white/10"
+                      className="bg-white/20 text-white hover:bg-white/30 border border-white/30"
                     >
                       <a
                         href="https://www.cncf.io/training/kubestronaut/?_sft_lf-country=in&p=badal-kumar-prusty"
