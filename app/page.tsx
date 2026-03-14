@@ -214,6 +214,46 @@ DevOps Engineer passionate about building scalable, reliable infrastructure. Ski
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
+                    <CardTitle className="text-xl text-gray-900 dark:text-white">Site Reliability Engineer - II</CardTitle>
+                    <CardDescription className="text-lg font-medium text-blue-600 dark:text-blue-400">
+                      Security Company
+                    </CardDescription>
+                  </div>
+                  <Badge variant="outline" className="text-sm">
+                    <Calendar className="w-4 h-4 mr-1" />
+                    Sep 2025 – Present
+                  </Badge>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-2">
+                    <Monitor className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <span className="text-sm text-gray-700 dark:text-gray-300">
+                      Implemented cost monitoring tools with <strong>container-level usage tracking</strong> and visualization dashboards to optimize infrastructure spend
+                    </span>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <Server className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0" />
+                    <span className="text-sm text-gray-700 dark:text-gray-300">
+                      Maintained Helmfiles and pipelines alongside <strong>custom Terraform modules</strong> to streamline Kubernetes provisioning for consistent deployments
+                    </span>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <Terminal className="w-5 h-5 text-indigo-600 mt-0.5 flex-shrink-0" />
+                    <span className="text-sm text-gray-700 dark:text-gray-300">
+                      Implemented <strong>C7N policies with AWS Lambda</strong> to automatically delete orphaned EBS volumes; built Go CLI tool for user-friendly volume management
+                    </span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Previous Role */}
+            <Card className="border-l-4 border-l-blue-600 dark:bg-gray-800 dark:border-gray-700">
+              <CardHeader>
+                <div className="flex justify-between items-start">
+                  <div>
                     <CardTitle className="text-xl text-gray-900 dark:text-white">DevOps Engineer</CardTitle>
                     <CardDescription className="text-lg font-medium text-blue-600 dark:text-blue-400">
                       Devtron
@@ -221,7 +261,7 @@ DevOps Engineer passionate about building scalable, reliable infrastructure. Ski
                   </div>
                   <Badge variant="outline" className="text-sm">
                     <Calendar className="w-4 h-4 mr-1" />
-                    Jun 2023 – Present
+                    Jun 2023 – Sep 2025
                   </Badge>
                 </div>
               </CardHeader>
@@ -686,7 +726,7 @@ DevOps Engineer passionate about building scalable, reliable infrastructure. Ski
                   asChild
                 >
                   <a
-                    href="https://drive.google.com/file/d/1aVGdKw45czIGpVg5Ix-3_yCrTlbP4oqI/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1aVGdKw45czIGpVg5Ix-3_yCrTlbP4oqI/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="View PDF"
